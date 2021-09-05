@@ -17,9 +17,8 @@ const persistConfig = {
   storage,
   whitelist: ['items'],
 };
-console.log(contacts);
+
 const persistedContacts = persistReducer(persistConfig, contacts);
-console.dir(persistedContacts);
 const rootReducer = combineReducers({
   contacts: persistedContacts,
 });

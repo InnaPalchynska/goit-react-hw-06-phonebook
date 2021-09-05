@@ -12,22 +12,7 @@ const initialState = [
   { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
 ];
 
-// const getContactsFromLocalStorage = () => {
-//   const contacts = localStorage.getItem('contacts');
-//   const parsedContacts = JSON.parse(contacts);
-//   return parsedContacts;
-// };
-
 export default function App() {
-  // const [contacts, setContacts] = useState(
-  //   () => getContactsFromLocalStorage() ?? initialState,
-  // );
-  // const [contactFilter, setContactFilter] = useState('');
-
-  // useEffect(() => {
-  //   localStorage.setItem('contacts', JSON.stringify(contacts));
-  // }, [contacts]);
-
   return (
     <>
       <h1>Phonebook</h1>
